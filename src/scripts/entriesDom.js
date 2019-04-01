@@ -1,12 +1,15 @@
-document.getElementById("button").addEventListener("click", event => {
-    const  journalDate = document.getElementById("journalDate").value;
-    const  conceptTypes = document.getElementById("conceptTypes").value;
-    const  journalEntry = document.getElementById("journalEntry").value;
-    const  mood = document.getElementById("mood").value;
-})
+const makeJournalEntryComponent = (date, concept, entry, mood) => {
+    return `
+        <h1>${date}</h1>
+        <p>${concept}</p>
+        <p>${entry}</p>
+        <p>${mood}</p>
+    
+    `
+}
 
 const renderJournalEntries = (entries) => {
-    for(let i = 0; i < journalEntries.length; i++) {
+    for(let i = 0; i < entries.length; i++) {
         container.innerHTML += makeJournalEntryComponent(
             entries[i].date,
             entries[i].concept,

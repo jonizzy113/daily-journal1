@@ -1,25 +1,39 @@
 {
     "journalEntries": [
         {
-            "id": "1",
+            "id": 1,
             "date": "03/05/2019",
             "concept": "json",
-            "entry": "2",
+            "entry": "1",
             "mood": "Ok"
         },
         {
-            "id": "2",
+            "id": 2,
             "date": "03/06/2019",
             "concept": "grunt",
+            "entry": "2",
+            "mood": "sad"
+        },
+        {
+            "id": 3,
+            "date": "03/07/2019",
+            "concept": "api",
             "entry": "3",
             "mood": "sad"
         },
         {
-            "id": "3",
-            "date": "03/07/2019",
-            "concept": "api",
-            "entry": "4",
-            "mood": "sad"
+            "date": "2019-03-28",
+            "concept": "Browesify",
+            "entry": "Learned Borwesify today",
+            "mood": "sad",
+            "id": "DCMp1kX"
+        },
+        {
+            "date": "2019-03-28",
+            "concept": "Browesify",
+            "entry": "Learned Browesify",
+            "mood": "sad",
+            "id": 4
         }
     ]
 }

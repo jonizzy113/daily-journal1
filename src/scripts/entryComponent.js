@@ -1,10 +1,9 @@
 const container = document.querySelector(".entryLog")
-const makeJournalEntryComponent = (date, concept, entry, mood) => {
-    return `
-        <div>${date}</div>
-        <div>${concept}</div>
-        <div>${entry}</div>
-        <div>${mood}</div>
-    
-    `
+const newJournalEntry = (journalDate, conceptTypes, journalEntry, journalMood) => {
+    return {
+        "date": journalDate,
+        "concept": conceptTypes,
+        "entry": journalEntry,
+        "mood": journalMood
+    }
 }
